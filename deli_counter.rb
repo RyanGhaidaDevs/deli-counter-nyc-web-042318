@@ -49,7 +49,7 @@ def line (array)
    if katz_deli.length == 0
      puts "There is nobody waiting to be served!"
 
-  else puts "Currently serving #{katz_deli[i]}"
+  else puts "Currently serving #{katz_deli[i]}."
 
      katz_deli.shift
    end
