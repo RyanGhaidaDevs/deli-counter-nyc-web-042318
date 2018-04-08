@@ -23,12 +23,12 @@ def line (array)
 
     i = 1
     katz_deli = []
-    arr = [] 
+    arr = []
 
-   katz_deli << name 
+   katz_deli << name
    arr.push("Welcome, #{name}. You are number #{i} in line.")
    i+= 1
    puts arr.join(" ")
 
-   
+
  end
