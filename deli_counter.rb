@@ -28,7 +28,8 @@ def line (array)
    katz_deli << name
    arr.push("Welcome, #{name}. You are number #{i} in line.")
    i+= 1
+   
    puts arr.join(" ")
-
+   katz_deli
 
  end
