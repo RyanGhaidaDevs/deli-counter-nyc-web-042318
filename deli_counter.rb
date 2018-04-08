@@ -28,13 +28,13 @@ def line (array)
 
    katz_deli << name
 
-   while i < katz_deli.length
+  
 
     arr2.push("Welcome, #{name}. You are number #{katz_deli.length} in line.")
 
-     i+= 1
+  
 
-   end
+
    
    puts arr2.join(" ")
 
