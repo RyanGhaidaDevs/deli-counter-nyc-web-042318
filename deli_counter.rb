@@ -28,14 +28,14 @@ def line (array)
 
    katz_deli << name
 
-  
+
 
     arr2.push("Welcome, #{name}. You are number #{katz_deli.length} in line.")
 
-  
 
 
-   
+
+
    puts arr2.join(" ")
 
   katz_deli
