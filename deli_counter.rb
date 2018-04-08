@@ -21,12 +21,14 @@ def line (array)
 
  def take_a_number (katz_deli, name)
 
-   i = 1
+    i = 1
     katz_deli = []
+    arr = [] 
 
-   katz_deli.push("Welcome, #{name}. You are number #{i} in line.")
-
-   puts katz_deli.join(" ")
-
+   katz_deli << name 
+   arr.push("Welcome, #{name}. You are number #{i} in line.")
    i+= 1
+   puts arr.join(" ")
+
+   
  end
