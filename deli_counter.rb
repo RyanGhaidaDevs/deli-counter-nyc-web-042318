@@ -17,3 +17,17 @@ def line (array)
   end
 
  end
+
+
+ def take_a_number (katz_deli, name)
+   
+   i = 1 
+    katz_deli = [] 
+   
+   katz_deli.push("Welcome, #{name}. You are number #{i} in line.")
+   
+   puts katz_deli
+   
+   i+= 1 
+ end 
+ 
