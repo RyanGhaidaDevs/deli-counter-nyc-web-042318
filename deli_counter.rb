@@ -30,4 +30,3 @@ def line (array)
 
    i+= 1
  end
- 
