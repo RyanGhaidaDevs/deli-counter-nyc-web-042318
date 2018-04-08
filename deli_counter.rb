@@ -45,13 +45,12 @@ def line (array)
 
  def now_serving(katz_deli)
 
-i = 0 
-   if katz_deli.length == 0 
+   i = 0
+   if katz_deli.length == 0
      puts "There is nobody waiting to be served!"
 
   else puts "Currently serving #{katz_deli[i]}"
-
-     katz_deli.shift  
+     
+     katz_deli.shift
    end
- end 
-   
+ end
