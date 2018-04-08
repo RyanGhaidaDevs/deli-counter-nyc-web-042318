@@ -20,16 +20,24 @@ def line (array)
 
 
  def take_a_number (katz_deli, name)
-
-    i = 1
-    katz_deli = []
-    arr = []
-
-   katz_deli << name
-   arr.push("Welcome, #{name}. You are number #{i} in line.")
-   i+= 1
-
-   puts arr.join(" ")
-   katz_deli
-
- end
+   
+   arr2 = [] 
+    i = 0 
+   
+    
+    
+   katz_deli << name 
+   
+   while i < katz_deli.length 
+   
+    arr2.push("Welcome, #{name}. You are number #{i+1} in line.")
+   
+     i+= 1 
+   end 
+   
+   puts arr2.join(" ")
+   
+  katz_deli
+ 
+ 
+ end 
